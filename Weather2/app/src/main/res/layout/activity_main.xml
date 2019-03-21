@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weather">
+
+    <EditText
+        android:id="@+id/search_et"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:hint="请输入搜索内容"
+        android:maxLength="10"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:background="#44f5f5e1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/search_bt"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/search_et"
+        android:text="查找"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/search_et"
+        android:background="#44161010"
+        />
+
+
+
+
+</RelativeLayout>
+
+
+
+
